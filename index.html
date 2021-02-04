@@ -6,12 +6,37 @@
 		<title>Hall Hill Lock</title>
 
 		
+		<link rel="stylesheet" href="https://github.com/hakimel/reveal.js/blob/master/dist/reset.css">
+		<link rel="stylesheet" href="https://github.com/hakimel/reveal.js/blob/master/dist/reveal.css">
+		<link rel="stylesheet" href="https://github.com/hakimel/reveal.js/blob/master/dist/theme/black.css" id="theme">
+
 		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="https://github.com/hakimel/reveal.js/blob/master/plugin/highlight/monokai.css" id="highlight-theme">
 		
 	</head>
   <body>
-    <p>Hello Everyone</p>
-    <p>This is my private website</p>
-    <p>Happy to walk in here! </p>
+	  <div class="reveal">
+			<div class="slides">
+				<section>Hellow Everyone!</section>
+				<section>This is first slides website!</section>
+			</div>
+		</div>
+
+		<script src="https://github.com/hakimel/reveal.js/blob/master/dist/reveal.js"></script>
+		<script src="https://github.com/hakimel/reveal.js/blob/master/plugin/notes/notes.js"></script>
+		<script src="https://github.com/hakimel/reveal.js/blob/master/plugin/markdown/markdown.js"></script>
+		<script src="https://github.com/hakimel/reveal.js/blob/master/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+    
   </body>
 </html>
