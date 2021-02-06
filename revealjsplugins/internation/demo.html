@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Internation for Reveal.js</title>
+    <meta name="description" content="">
+    <meta name="author" content="Martinomagnifico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/black.css">
+    <link rel="stylesheet" href="css/demo.css">
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="menubar" id="menubar">
+            <div class="dropdown">
+                <input id="checkbox_toggle" type="checkbox">
+                <label for="checkbox_toggle" data-i18n="chooselanguage">Choose language</label>
+                <div class="langchooser">
+                    <label>
+                        <input type="radio" name="menulangradios" value="en" checked><span>English</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="menulangradios" value="fr"><span>Français</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="menulangradios" value="se"><span>Svenska</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="menulangradios" value="cn"><span>中文</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="menulangradios" value="nl"><span>Nederlands</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="slides">
+            <section id="intro" data-state="hide-menubar">
+                <h1 class="lowercase" data-i18n="title">Internation</h1>
+                <h3 data-i18n="subtitle">for Reveal.js</h3>
+                <div class="langchooser flags">
+                    <label>
+                        <input type="radio" name="langradios" value="en" checked><img src="img/en.png">
+                    </label>
+                    <label>
+                        <input type="radio" name="langradios" value="fr"><img src="img/fr.png">
+                    </label>
+                    <label>
+                        <input type="radio" name="langradios" value="se"><img src="img/se.png">
+                    </label>
+                    <label>
+                        <input type="radio" name="langradios" value="cn"><img src="img/cn.png">
+                    </label>
+                    <label>
+                        <input type="radio" name="langradios" value="nl"><img src="img/fr.png" style="transform: rotate(-90deg)">
+                    </label>
+                </div>
+            </section>
+            <section>
+                <section id="examples">
+                    <h2 data-i18n="title">Examples</h2>
+                </section>
+                <section id="fruit">
+                    <h3 data-i18n="title">Fruit</h3>
+                    <div class="row">
+                        <div class="col"><img src="img/apple.png">
+                            <p data-i18n="apple">An apple</p>
+                        </div>
+                        <div class="col"><img src="img/orange.png">
+                            <p data-i18n="orange">An orange</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="diner">
+                    <h3 data-i18n="title">Diner</h3>
+                    <div class="row">
+                        <div class="col"><img src="img/pizza.png">
+                            <p data-i18n="pizza">A pizza</p>
+                        </div>
+                        <div class="col"><img src="img/hamburger.png">
+                            <p data-i18n="hamburger">A hamburger</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="animals">
+                    <h3 data-i18n="title">Animals</h3>
+                    <div class="row">
+                        <div class="col"><img src="img/dog.png">
+                            <p data-i18n="dog">A dog</p>
+                        </div>
+                        <div class="col"><img src="img/cat.png">
+                            <p data-i18n="cat">A cat</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="html">
+                    <h3 data-i18n="title">HTML Content</h3>
+                    <p data-i18n="paragraph">This is a normal paragraph with text.</p>
+                    <p data-i18n="htmlparagraph">This is a paragraph that has <a href="#">HTML</a> in it.</p>
+                </section>
+            </section>
+            <section data-state="hide-menubar">
+                <section>
+                    <h2>Setup</h2>
+                </section>
+                <section>
+                    <h3>Step 1. Define current language</h3>
+                    <p class="small">Internation has English as default language. You can change it if you like in the options:</p>
+                    <pre><code>Reveal.initialize({
+    //
+    internation: {
+        locale: "en",
+        localename: 'English'
+    },
+    plugins: [ Internation ]
+});
+</code></pre>
+                </section>
+                <section>
+                    <h3>Step 2. Adding data-attributes</h3>
+                    <pre><code>&lt;section id=&quot;intro&quot;&gt;
+    &lt;h1 data-i18n=&quot;title&quot;&gt;Hello!&lt;/h1&gt;
+    &lt;p data-i18n=&quot;paragraph1&quot;&gt;There is a &lt;a href=&quot;#&quot;&gt;link&lt;/a&gt; in the paragraph&lt;/p&gt;
+&lt;/section&gt;
+</code></pre>
+                    <p class="small">Add a data-attribute of <code>data-i18n="something"</code> to the text you want to translate. Skip elements that are common in all languages.</p>
+                    <p class="small">Internation reads HTML by default. If some text contains a span or link, it is better to take that whole piece for translation. If you turn the HTML setting off in the options (you can), you would need to make spans of every text that is not a link.</p>
+                </section>
+                <section>
+                    <h3>Step 3. Creating JSON</h3>
+                    <p class="small">Internation can automatically generate a JSON file for you based on the existing HTML content of the elements. First turn it on in the options (make sure you have added data-attributes in step 2):</p>
+                    <pre><code>Reveal.initialize({
+    //
+    internation: {
+        makejson: true
+    },
+    plugins: [ Internation ]
+});</code></pre>
+                    <p class="small">Next, load the page with this URL parameter: <code>...index.html?makejson</code>. This will immediately download a JSON file of your current HTML. The URL step is a safeguard for if you accidentally publish with <code>makejson:true</code> in the options turned on.</p>
+                </section>
+                <section>
+                    <h3>Step 4. Start translating</h3>
+                    <p class="small">Make a copy of your first language JSON. Give the file a name that is obvious (so, fr.json for French). </p>
+                    <p class="small"><b>Now start translating!</b> When you are finished, put the file in an obvious location on your website.</p>
+                    <p class="small">Note: <em>If an element has the data-attribute, but is missing in the dictionary of your new language, it will stay in the original language.</em></p>
+                </section>
+                <section>
+                    <h3>Step 5A. Refer to a language file</h3>
+                    <pre><code>Reveal.initialize({
+    //
+    internation: {
+        languages: {
+            fr: {
+                name: "Français",
+                dictionary: "fr.json"
+            }
+        }
+    },
+    plugins: [ Internation ]
+});
+</code></pre>
+                    <p class="small">A language in Internation contains both a name and a dictionary. This example shows that a JSON file is used for the dictionary. JSON files will only work if there is a server. It will not work with the file:// protocol.</p>
+                </section>
+                <section>
+                    <h3>Step 5B. Or a language object</h3>
+                    <pre><code>Reveal.initialize({
+    //
+    internation: {
+        languages: {
+            fr: {
+                name: "Français",
+                dictionary: {
+                    "slides" : {
+                        "intro":{"title":"Bonjour!"}
+                    }
+                }
+            }
+        }
+    },
+    plugins: [ Internation ]
+});
+</code></pre>
+                    <p class="small">If you really want to allow local file access, you can put the whole dictionary object in the specific language object in your options.</p>
+                </section>
+                <section>
+                    <h3>The dictionary / JSON</h3>
+                    <pre><code>{
+    "slides" : {
+        "intro":{
+            "title":"Bonjour!",
+            "paragraph1":"Ceci est un paragraphe"
+        },
+        "animals":{
+            "title":"Animaux",
+            "dog":"Chien",
+            "cat":"Chat",
+        }
+    },
+    "menubar" : {
+        "title":"Voici le titre",
+    }
+}
+</code></pre>
+                    <p class="small">To get a human-readable structure, Internation looks for a 'slides' object for any sections with ID's. It will also look for any elements with an ID that are outside of the slides, like a menu bar that is visible on all slides.</p>
+                </section>
+                <section>
+                    <h3>Switching languages</h3>
+                    <p class="small">If you want multiple languages, you will probably also want users to choose. Internation listens to 'change' events of either a select or a set of radio buttons. By default, this is any element with the class <code>langchooser</code>, but that classname can be changed in the options.</p>
+                    <p class="small">You can put these on a slide (like the first page with the flags) or outside them in an element that is visible on multiple slides (like the menubar in the examples).</p>
+                </section>
+            </section>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+    <script src="plugin/internation/internation.js"></script>
+    <script>
+        Reveal.initialize({
+            transition: "convex",
+            history: true,
+            internation: {
+                switchselector: ".langchooser",
+                languages: {
+                    fr: {
+                        name: "Français",
+                        dictionary: "fr.json"
+                    },
+                    se: {
+                        name: "Svenska",
+                        dictionary: "se.json"
+                    },
+                    cn: {
+                        name: "中文",
+                        dictionary: "cn.json"
+                    },
+                    nl: {
+                        name: "Nederlands",
+                        dictionary: {
+                            menubar: {
+                                chooselanguage: "Kies een taal"
+                            },
+                            slides: {
+                                examples: {
+                                    title: "Voorbeelden"
+                                },
+                                intro: {
+                                    subtitle: "voor Reveal.js"
+                                },
+                                fruit: {
+                                    title: "Vruchten",
+                                    apple: "Een appel",
+                                    orange: "Een sinaasappel"
+                                },
+                                diner: {
+                                    title: "Diner",
+                                    pizza: "Een pizza",
+                                    hamburger: "Een hamburger"
+                                },
+                                animals: {
+                                    title: "Dieren",
+                                    dog: "Een hond",
+                                    cat: "Een kat"
+                                },
+                                html: {
+                                    title: "HTML Inhoud",
+                                    paragraph: "Dit is een paragraaf.",
+                                    htmlparagraph: "Dit is een paragraaf die <a href=\"#\">HTML</a> bevat."
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            plugins: [
+                Internation
+            ]
+        });
+    </script>
+    <!-- The script below closes the fake 'select' if an option is chosen;-->
+    <script>
+        let dropdown = document.querySelector('.menubar .langchooser');
+        let label = document.querySelector('.menubar .dropdown > label');
+        dropdown.addEventListener("click", function(e) {
+            label.click();
+        }, false);
+    </script>
+</body>
+
+</html>
