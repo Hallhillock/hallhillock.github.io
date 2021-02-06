@@ -49,9 +49,7 @@
 					<textarea data-template>
 						## Data Show (local)
 
-						<video width="1000" height="800" controls="controls">
-							<source src="./imgs/百公里加速榜Top10, 燃油车型.mp4">
-						</video>
+						<video data-autoplay src="./imgs/百公里加速榜Top10, 燃油车型.mp4"></video>
 					</textarea>
 				</section>
 			</div>
@@ -68,6 +66,7 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
+				atuoPlayMedia: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu ],
