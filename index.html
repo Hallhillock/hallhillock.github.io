@@ -21,20 +21,12 @@
   <body>
 	
 	  <div class="reveal">
-		<!-- <div class="menubar">
-            <ul class="menu">
-                <li><a href="#/firstmenuitem">Home</a></li>
-                <li><a href="#/secondmenuitem">Data Video</a></li>
-                <li><a href="#/thirdmenuitem">Jump out</a></li>
-            </ul>
-        </div> -->
 			<div class="slides">
-			<section id="firstmenuitem">
-				<section class="center">
+				<section>
 					<h2> Hello Everyone! </h2>
 					
 				</section>
-				<section class="center" data-markdown>
+				<section data-markdown>
 					<textarea data-template>
 						## Our goals!
 
@@ -43,9 +35,8 @@
 						+ How to use markdown to compose slides via "reveal.js"
 					</textarea>
 				</section>
-			</section>
 			
-				<section id="secondmenuitem" class="center" data-markdown>
+				<section data-markdown>
 					<textarea data-template>
 						## Data show 
 
@@ -53,7 +44,7 @@
 					</textarea>
 				</section>
 		
-				<sectionn id="thirdmenuitem" class="center">
+				<sectionn>
 					<h4>Jump out -  <a href="demo.html">Link</a> </h4>
 				</section>	
 				
@@ -65,7 +56,7 @@
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 	  	<script src="revealjsplugins/menu/menu.js"></script>
-		<script src="revealjsplugins/simplemenu/simplemenu.js"></script>
+		<!-- <script src="revealjsplugins/simplemenu/simplemenu.js"></script> -->
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -76,7 +67,7 @@
 				transitions: "convex",
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu, Simplemenu ],
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu],
 				// ...
 
 			  menu: {
