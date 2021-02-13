@@ -23,21 +23,13 @@
   <body>
 	
 	  <div class="reveal">
-
-		<div class="menubar">
-            <ul class="menu">
-                <li><a href="#/M1">Home</a></li>
-                <li><a href="#/M2">Goals</a></li>
-                <li><a href="#/M3">Out of site </a></li>
-            </ul>
-        </div>
 		  
 			<div class="slides">
-				<section id="M1">
+				<section>
 					<h2> Hello Everyone! </h2>
 					
 				</section>
-				<section id="M2" data-markdown>
+				<section data-markdown>
 					<textarea data-template>
 						## Our goals!
 
@@ -55,7 +47,7 @@
 					</textarea>
 				</section>
 		
-				<section id="M3" >
+				<section>
 					<h4>Jump out -  <a href="demo.html">Link</a> </h4>
 				</section>	
 				
@@ -67,18 +59,18 @@
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 	  	<script src="revealjsplugins/menu/menu.js"></script>
-		<script src="revealjsplugins/simplemenu/plugin/simplemenu/simplemenu.js"></script>
+		<!-- <script src="revealjsplugins/simplemenu/plugin/simplemenu/simplemenu.js"></script> -->
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
-				//hash: true,
-				//autoPlayMedia: true,
+				hash: true,
+				autoPlayMedia: true,
 				transitions: "convex",
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu,RevealMenu ],
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu ],
 				// ...
 
 			  menu: {
