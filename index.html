@@ -1,32 +1,43 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		
 
 		<title>Hall Hillock</title>
 		
-		<meta name="description" content="">
-		<meta name="author" content="Martinomagnifico">
+		<meta name="description" content="Life, Data, Markdown, Reveal.js, Tech, Slides">
+		<meta name="author" content="Hall Hillock">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 		<link rel="stylesheet" href="css/demo.css">
 		<!-- Theme used for syntax highlighted code -->
-		<!-- <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme"> -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 		
 	</head>
   <body>
 	
 	  <div class="reveal">
+
+		<div class="menubar">
+            <ul class="menu">
+                <li><a href="#/M1">Home</a></li>
+                <li><a href="#/M2">Goals</a></li>
+                <li><a href="#/M3">Out of site </a></li>
+            </ul>
+        </div>
+		  
 			<div class="slides">
-				<section>
+				<section id="M1">
 					<h2> Hello Everyone! </h2>
 					
 				</section>
-				<section data-markdown>
+				<section id="M2" data-markdown>
 					<textarea data-template>
 						## Our goals!
 
@@ -44,7 +55,7 @@
 					</textarea>
 				</section>
 		
-				<section>
+				<section id="M3" >
 					<h4>Jump out -  <a href="demo.html">Link</a> </h4>
 				</section>	
 				
@@ -56,18 +67,18 @@
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 	  	<script src="revealjsplugins/menu/menu.js"></script>
-		<!-- <script src="revealjsplugins/simplemenu/simplemenu.js"></script> -->
+		<script src="revealjsplugins/simplemenu/plugin/simplemenu/simplemenu.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
-				hash: true,
-				autoPlayMedia: true,
+				//hash: true,
+				//autoPlayMedia: true,
 				transitions: "convex",
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu],
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu,RevealMenu ],
 				// ...
 
 			  menu: {
