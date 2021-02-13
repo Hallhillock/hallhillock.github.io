@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
-
+		<link rel="stylesheet" href="css/demo.css">
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 	</head>
@@ -25,9 +25,17 @@
 	<body>
 
 		<div class="reveal">
-
+			<div class="menubar">
+				<ul class="menu">
+					<li><a href="#/firstmenuitem">Back Home</a></li>
+					
+				</ul>
+			</div>
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
+				<section id="firstmenuitem">
+					<h3>Go back <a href="index.html">Hall Hillock</a> </h3> 
+				</section>
 				<section>
 					<a href="https://revealjs.com">
 						<img src="https://static.slid.es/reveal/logo-v1/reveal-white-text.svg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
@@ -456,6 +464,7 @@ Reveal.on( 'customevent', function() {
 		<script src="plugin/search/search.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
+		<script src="revealjsplugins/simplemenu/plugin/simplemenu/simplemenu.js"></script>
 		<script>
 
 			// Also available as an ES module, see:
@@ -467,7 +476,7 @@ Reveal.on( 'customevent', function() {
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight, Simplemenu ]
 			});
 
 		</script>
