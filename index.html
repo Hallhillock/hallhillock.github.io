@@ -15,9 +15,17 @@
 		
 	</head>
   <body>
+	<div class="reveal">
+        <div class="menubar">
+            <ul class="menu">
+                <li><a href="#/firstmenuitem">Home</a></li>
+                <li><a href="#/secondmenuitem">Data video</a></li>
+                
+            </ul>
+        </div>
 	  <div class="reveal">
 			<div class="slides">
-				<section>
+				<section id="firstmenuitem" >
 					<h2> Hello Everyone! </h2>
 					
 				</section>
@@ -30,9 +38,9 @@
 						+ How to use markdown to compose slides via "reveal.js"
 					</textarea>
 				</section>
-				<section data-markdown>
+				<section data-markdown id="secondmenuitem">
 					<textarea data-template>
-						## Data show (source url)
+						## Data show 
 
 						<video data-autoplay src="https://img.hanabi.cn/video/202102071305168lna95vqinner_tmp_out.mp4"></video>
 					</textarea>
@@ -49,6 +57,7 @@
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 	  	<script src="revealjsplugins/menu/menu.js"></script>
+		  <script src="revealjsplugins/simplemenu/simplemenu.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -56,9 +65,10 @@
 			Reveal.initialize({
 				hash: true,
 				autoPlayMedia: true,
+				transitions: "convex",
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu ],
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMenu, simplemenu ],
 				// ...
 
 			  menu: {
