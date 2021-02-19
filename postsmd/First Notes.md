@@ -3,21 +3,18 @@
 ### What a different day!
 
 
-I studied the Markdown language and took practise in the note - [Markdown Study](./Markdownstudy.md).
+Know the Markdown rules, it is easy; how to use it, it would be difficult, you need take more times.
 
 
 |one|two|three|
 |---|:---:|---|
 |Yi|Er|Shan|
 
-- [ ] List one
-- [ ] List two
 
 
+**👀　看过一套书**
 
-**Page 1**
-==Who am I?==
-
+*《罗马人的故事》，一个日本人写的古罗马历史。*
 
 
 ## 《罗马不是一天建成的》
