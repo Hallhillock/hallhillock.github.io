@@ -7,9 +7,9 @@ Know the Markdown rules, it is easy; how to use it, it would be difficult, you n
 
 
 |one|two|three|
-|---|:---:|---|
+|:---|:---:|---:|
 |Yi|Er|Shan|
-
+|Wu|Liu|Qi|
 
 
 **👀　看过一套书**
