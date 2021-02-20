@@ -11,6 +11,9 @@ Know the Markdown rules, it is easy; how to use it, it would be difficult, you n
 |:---|:---:|---:|
 |Yi|Er|Shan|
 |Wu|Liu|Qi|
++ backup
+>// src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"
+>// src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"
 
 
 
