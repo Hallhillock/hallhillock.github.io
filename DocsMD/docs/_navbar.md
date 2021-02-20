@@ -1,2 +1,2 @@
 <!-- _navbar.md -->
-* [:Home:](http://hallhillock.github.io)
+* [Home](http://hallhillock.github.io)
