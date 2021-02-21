@@ -1,4 +1,4 @@
 <!-- navbar.md -->
-* <i class="fa fa-home"> [Home](http://hallhillock.github.io) </i>
+* <a href="https://hallhillock.github.io"><i class="fa fa-home"> </i></a>
 * :memo:
   * Here is about how to grow with your kids, we just would like to share our experiences.
