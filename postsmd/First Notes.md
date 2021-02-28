@@ -7,7 +7,7 @@ Know the Markdown rules, it is easy; how to use it, it would be difficult, you n
 
 
 
-## Blog index / 博客索引
+## Blog index - 博客索引
 
 > [陪娃长大系列](../DocsMD/docs/index.html)
 > > * [陪娃学编程](../DocsMD/docs/index.html#/docs/KidsStudyProgram?id=睡觉和手机-代前言)
@@ -16,7 +16,7 @@ Know the Markdown rules, it is easy; how to use it, it would be difficult, you n
 
 
 
-### <u>《罗马人的故事》</u>
+## <u>《罗马人的故事》</u>
 **👀　看过一套书**
 
 *《罗马人的故事》，一个日本人写的古罗马历史。*
