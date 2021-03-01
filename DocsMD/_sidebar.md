@@ -6,4 +6,4 @@
 
 
 ***
-* <i class="fa fa-home" aria-hidden="true"></i> [Back Hall Hillock Home](http://hallhillock.com)
+* <i class="fa fa-home" aria-hidden="true"></i> [Back Hall Hillock Home](https://hallhillock.com)
