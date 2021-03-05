@@ -36,11 +36,15 @@
 + 明朝白银
 明朝白银成为法定货币。随着商品经济的恢复和高涨，加上明中后期以来巨额贸易顺差，海外白银大量流入，白银的使用日益广泛，成为主要的法定货币，形成了以银为主，以钱为辅的钱、银并行的货币流通制度。银铸币有银两和银元两种。我国长期使用银两，属称量货币，有银饼、银锭、银元宝和零碎银子等各种形制，使用时要看成色、称重量。海外流入的白银多为银元，价值稳定，受到沿海各省商人的欢迎和广泛使用。鸦片战争后，各省纷纷铸造龙洋——带龙图案的银元。白银价格适中而稳定，它的广泛使用便利了商品贸易，促进了商业资本的积聚。
 
-![](https://bkimg.cdn.bcebos.com/pic/1ad5ad6eddc451daa47c8a3bb6fd5266d1163253?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxNTA=,g_7,xp_5,yp_5/format,f_auto)
+![](https://iknow-pic.cdn.bcebos.com/a1ec08fa513d26974cc32a8a53fbb2fb4216d8d0?x-bce-process=image/quality,q_85)
 
-![](https://bkimg.cdn.bcebos.com/pic/b812c8fcc3cec3fd6f80aaeed688d43f869427ea?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5/format,f_auto)
+![](https://img.zmkm8.com/data/attachment/portal/201906/18/101736m6r7z7bcoz6pgdcb.jpg)
+
+![](https://img.zmkm8.com/data/attachment/portal/201906/18/101740qrr8n8d3314rkeiv.jpg)
 
 ![](https://bkimg.cdn.bcebos.com/pic/14ce36d3d539b600c2146348e350352ac75cb773?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5/format,f_auto)
+
+![](https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3372641423,3337623590&fm=26&gp=0.jpg)
 
 ### 金银
 历史上，欧洲各国的主币为金币和银币，辅币以铜、铜合金制造。随着欧洲社会经济与人口的发展，商品交易量逐渐增大，到15世纪时因为矿产枯竭，经济发达的法兰德斯和意大利北部各邦国出现了通货紧缩的恐慌。从16世纪开始，大量来自美洲的黄金和白银通过西班牙流入欧洲，尤其是银币西班牙银元，这些多出来的贵金属有如现代印钞机一般，挽救了欧洲的货币制度，并为其后欧洲的资本主义经济发展创造了起步的条件。
