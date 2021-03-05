@@ -119,3 +119,4 @@
 + [搜狐 - 纸币的历史，你了解多少？](https://www.sohu.com/a/124127907_488384)
 + [搜狐 - 纸币的“历史恩怨”，看这一篇就够了！](https://www.sohu.com/a/224505255_455416)
 + [百度知道 - 西方历史上第一张纸币](https://zhidao.baidu.com/question/20684990.html)
++ [百度百科 - 中国古钱币](https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E9%92%B1%E5%B8%81/395864?fr=aladdin) 
