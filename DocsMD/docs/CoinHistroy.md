@@ -44,8 +44,6 @@
 
 ![](https://img.zmkm8.com/data/attachment/portal/201906/18/101740qrr8n8d3314rkeiv.jpg)
 
-![](https://bkimg.cdn.bcebos.com/pic/14ce36d3d539b600c2146348e350352ac75cb773?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5/format,f_auto)
-
 ![](https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3372641423,3337623590&fm=26&gp=0.jpg)
 
 ### 金银
