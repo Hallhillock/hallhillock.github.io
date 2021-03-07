@@ -1,0 +1,153 @@
+{
+  "main": {
+    "id": "db94111a64b3b199",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f183d7d92dd7d93",
+        "type": "split",
+        "children": [
+          {
+            "id": "7365f6d11b0509f8",
+            "type": "split",
+            "children": [
+              {
+                "id": "e04d80e4b359f625",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "KidsStudyProgram.md",
+                    "mode": "source"
+                  }
+                }
+              },
+              {
+                "id": "5f19841444d491ae",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "CoinHistroy.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": false
+                    }
+                  }
+                }
+              }
+            ],
+            "direction": "horizontal"
+          },
+          {
+            "id": "3558ddc0cede630f",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CoinHistroy.md",
+                "mode": "preview"
+              }
+            }
+          }
+        ],
+        "direction": "vertical"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2b623fbf5b3c4cfd",
+    "type": "split",
+    "children": [
+      {
+        "id": "e22f53553adc7492",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f059e177a12ea859",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "6573260664e0b47e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3b4667154420980b",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f51d105ab6ba1d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b3988cae340818d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CoinHistroy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "CoinHistroy.md",
+    "KidsStudyProgram.md",
+    "fixedwords.md"
+  ]
+}
