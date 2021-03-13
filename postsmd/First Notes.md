@@ -1,26 +1,14 @@
-## Never Give up
-
-### What a different day!
-
-
-Know the Markdown rules, it is easy; how to use it, it would be difficult, you need take more times.
-
-
-
-## 陪娃长大系列
-
-+ [陪娃学编程](../DocsMD/docs/index.html#/docs/KidsStudyProgram?id=睡觉和手机-代前言)
-+ [父母送给孩子最好的礼物，*五斗橱*](../DocsMD/docs/index.html#/docs/WuDouChu)
-+ [钱币的历史](../DocsMD/docs/index.html#/docs/CoinHistroy?id=以物易物)
+### 小段子
+|||
+|:---:|:---|
+|[陪娃长大系列](/DocsMD/docs/index.html)|娃，每天都有很多问题，有些可以回答就积累下来，放在这里。|
+|职业道路|胡说一些职场的幸福与伤感（Coming soon ... ...）|
+|喝茶人生|每天给自己一小段时间自己和自己对话（Coming soon ... ...）|
 
 
 
-## <u>《罗马人的故事》</u>
-**👀　看过一套书**
+### 阅读
 
-*《罗马人的故事》，一个日本人写的古罗马历史。*
-
-
-### 《罗马不是一天建成的》
-+ 盐野七生，一个日本人，到了罗马，对那里产生浓厚的兴趣，几乎住在了意大利，不回日本了。
-
++ “阅读就像是吃饭”，这是好像白岩松说的。
++ 每天我们要吃饭，其实也要阅读；这样两个方面营养每天都有了。
++ 
