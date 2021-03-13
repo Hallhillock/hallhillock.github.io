@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Agriculture and Biology.md",
+                    "file": "AgricultureandBiology.md",
                     "mode": "source"
                   }
                 }
@@ -29,7 +29,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Agriculture and Biology.md",
+                    "file": "AgricultureandBiology.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Agriculture and Biology.md",
+                "file": "AgricultureandBiology.md",
                 "mode": "preview"
               }
             }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Agriculture and Biology.md",
+                "file": "AgricultureandBiology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,9 +147,9 @@
   },
   "lastOpenFiles": [
     "Agriculture and Biology.md",
+    "CoinHistroy.md",
     "Untitled.md",
     "fixedwords.md",
-    "KidsStudyProgram.md",
-    "CoinHistroy.md"
+    "KidsStudyProgram.md"
   ]
 }
