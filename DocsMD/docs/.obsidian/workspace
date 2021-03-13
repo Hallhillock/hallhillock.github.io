@@ -14,10 +14,11 @@
               {
                 "id": "e04d80e4b359f625",
                 "type": "leaf",
+                "active": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "KidsStudyProgram.md",
+                    "file": "CoinHistroy.md",
                     "mode": "source"
                   }
                 }
@@ -63,7 +64,6 @@
           {
             "id": "3558ddc0cede630f",
             "type": "leaf",
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -147,7 +147,7 @@
   },
   "lastOpenFiles": [
     "CoinHistroy.md",
-    "KidsStudyProgram.md",
-    "fixedwords.md"
+    "fixedwords.md",
+    "KidsStudyProgram.md"
   ]
 }
