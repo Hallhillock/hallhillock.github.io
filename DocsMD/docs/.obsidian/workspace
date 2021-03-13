@@ -18,7 +18,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "CoinHistroy.md",
+                    "file": "Agriculture and Biology.md",
                     "mode": "source"
                   }
                 }
@@ -29,7 +29,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "CoinHistroy.md",
+                    "file": "Agriculture and Biology.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CoinHistroy.md",
+                "file": "Agriculture and Biology.md",
                 "mode": "preview"
               }
             }
@@ -113,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 196
   },
   "right": {
     "id": "3b4667154420980b",
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CoinHistroy.md",
+                "file": "Agriculture and Biology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,8 +146,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "CoinHistroy.md",
+    "Agriculture and Biology.md",
+    "Untitled.md",
     "fixedwords.md",
-    "KidsStudyProgram.md"
+    "KidsStudyProgram.md",
+    "CoinHistroy.md"
   ]
 }
