@@ -8,12 +8,13 @@
         "type": "split",
         "children": [
           {
-            "id": "7365f6d11b0509f8",
+            "id": "046f0dc37acb235a",
             "type": "split",
             "children": [
               {
                 "id": "e04d80e4b359f625",
                 "type": "leaf",
+                "active": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -23,38 +24,11 @@
                 }
               },
               {
-                "id": "5f19841444d491ae",
+                "id": "690e941b3fa410c3",
                 "type": "leaf",
                 "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "AgricultureandBiology.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1,
-                      "close": false
-                    }
-                  }
+                  "type": "graph",
+                  "state": {}
                 }
               }
             ],
@@ -63,7 +37,6 @@
           {
             "id": "3558ddc0cede630f",
             "type": "leaf",
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -147,10 +120,11 @@
   },
   "lastOpenFiles": [
     "AgricultureandBiology.md",
-    "Agriculture and Biology.md",
+    "Career Story.md",
     "CoinHistroy.md",
-    "Untitled.md",
     "fixedwords.md",
+    "Untitled.md",
+    "Agriculture and Biology.md",
     "KidsStudyProgram.md"
   ]
 }

@@ -14,10 +14,11 @@
               {
                 "id": "0466dce451ecbccb",
                 "type": "leaf",
+                "active": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "First Notes.md",
+                    "file": "HomePage.md",
                     "mode": "source"
                   }
                 }
@@ -36,11 +37,10 @@
           {
             "id": "c50387f7a7569991",
             "type": "leaf",
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "First Notes.md",
+                "file": "HomePage.md",
                 "mode": "preview"
               }
             }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "First Notes.md",
+                "file": "HomePage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +119,8 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "First Notes.md"
+    "HomePage.md",
+    "First Notes.md",
+    "Untitled.md"
   ]
 }
