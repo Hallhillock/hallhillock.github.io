@@ -6,6 +6,6 @@
 * [成语典故](/docs/fixedwords.md)
 * [各种来历](/docs/AgricultureandBiology.md)
 ***
-* [喝茶人生](/docs/Teaindex.html)
+* [喝茶人生](https://hallhillock.com/../../docs/Teaindex.html)
 ***
  <i class="fa fa-home" aria-hidden="true"></i> [Back Hall Hillock Home](https://hallhillock.com)
