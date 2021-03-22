@@ -5,6 +5,7 @@
 * [钱币的历史](/docs/CoinHistroy.md)
 * [成语典故](/docs/fixedwords.md)
 * [各种来历](/docs/AgricultureandBiology.md)
+* [贩卖焦虑](/docs/Worry.md)
 ***
 * [喝茶人生](https://hallhillock.com/DocsMD/docs/Teaindex.html)
 ***
