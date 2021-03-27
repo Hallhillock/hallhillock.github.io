@@ -2,7 +2,7 @@
 
 * [喝茶人生](/docs/TeaNCaffee.md)
 ***
-* [品茗视频](../../TeaVideo.html)
+* [品茗视频](https://TeaVideo.html)
 ***
 + [陪娃长大系列](https://hallhillock.com/DocsMD/docs/index.html)
 ***
