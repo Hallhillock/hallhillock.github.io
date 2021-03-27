@@ -3,7 +3,7 @@
 |:---:|:---|
 |[陪娃长大系列](/DocsMD/docs/index.html)|娃，每天都有很多问题，有些可以回答就积累下来，放在这里。|
 |职业道路|胡说一些职场的幸福与伤感（Coming soon ... ...）|
-|[喝茶人生](/DocsMD/docs/Teaindex.html)|每天给自己一小段时间自己和自己对话（Coming soon ... ...）|
+|[喝茶人生](/DocsMD/docs/Teaindex.html)|每天给自己一小段时间自己和自己对话|
 
 
 
@@ -18,4 +18,4 @@
 |||
 |:---:|:---|
 |[Data video](../VideoIndex.html)|This is about data analysis as video format|
-|Tea Video|Drink tea and enjoy the time with yourself or your friend|
+|[Tea Video](../TeaVideo.html)|Drink tea and enjoy the time with yourself or your friend|
