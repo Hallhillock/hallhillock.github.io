@@ -14,11 +14,12 @@
               {
                 "id": "e04d80e4b359f625",
                 "type": "leaf",
+                "dimension": 62.57088846880907,
                 "active": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Worry.md",
+                    "file": "Teasidebar.md",
                     "mode": "source"
                   }
                 }
@@ -26,6 +27,7 @@
               {
                 "id": "690e941b3fa410c3",
                 "type": "leaf",
+                "dimension": 37.42911153119093,
                 "state": {
                   "type": "graph",
                   "state": {}
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Worry.md",
+                "file": "Teasidebar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,8 +121,9 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Worry.md",
     "Teasidebar.md",
+    "Worry.md",
+    "TeaNCaffee.md",
     "CoinHistroy.md",
     "AgricultureandBiology.md",
     "Untitled.md",
